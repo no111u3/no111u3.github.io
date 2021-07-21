@@ -12,10 +12,17 @@ output_dir = "docs"
 # Setup project theme
 theme = "hyde"
 
+title = "no111u3's blog"
+description = "Blog about embedded, control enginering and another electronics"
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = false
 
 [extra]
-# Put all your custom variables here
+hyde_sticky = true
+hyde_links = [
+	{url = "https://github.com/no111u3/", name = "github"},
+	{url = "https://www.instagram.com/nis_embedded/", name = "instagram"},
+]
