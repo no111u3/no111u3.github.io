@@ -9,6 +9,9 @@ build_search_index = false
 
 output_dir = "docs"
 
+# Setup project theme
+theme = "hyde"
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
